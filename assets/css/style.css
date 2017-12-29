@@ -1,0 +1,186 @@
+
+#main-menu {
+	background-color: black;
+	color: lightyellow;
+	border-bottom: solid 2px grey;
+	height: 60px;
+	font-size: 22px;
+	padding: 10px;
+	
+}
+
+
+a {
+	color: rgb(242, 242, 217);
+	font-family: 'Wire One', sans-serif;
+}
+
+a:hover {
+	color:rgba(153, 0, 0, 0.85);
+	border-bottom: solid 2px;
+}
+
+.headshot {
+	background: url('../images/IMG_51481.jpg');
+	background-size: 1000px;
+
+}
+#main {
+	clear: both;
+  	height: 600px;
+  	color: black;
+
+
+}
+
+#ari {
+	float: left;
+	color: rgb(242, 242, 217);
+	font-family: 'Wire One', sans-serif;
+	font-size: 35px;
+	padding: 5px;
+}
+
+#name {
+	display: flex;
+	flex-direction: column;
+	line-height: 250%;
+	text-align: center;
+	justify-content: center;
+}
+
+#credits {
+	padding-top: 20px;
+	list-style-type: none;
+  	line-height: 90%;
+  	letter-spacing: 10px;
+  	font-family: 'Wire One', sans-serif;
+  	font-size: 25px;
+  	transform:scaleY(1.25);
+  	color: orange;
+}
+
+#e {
+	background-color: rgba(153, 0, 0, 0.85);
+	height: 330px;
+	border-top: 2px solid orange;
+}
+
+#first {
+	font-size: 100px;
+	color: orange;
+	font-family: 'Pinyon Script', cursive;
+}
+
+
+#last {
+	font-weight: bold;
+	transform:scaleY(2);
+	color: grey;
+	font-size: 100px;
+	opacity: .8;
+	letter-spacing: 30px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#welcome {
+	font-family: 'Wire One', sans-serif;
+	letter-spacing: 30px;
+	color: white;
+	font-size: 90px;
+}
+
+#about {
+	font-size: 15px;
+	color: orange;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#more {
+	font-family: 'Wire One', sans-serif;
+	background-color: red;
+	border-color: orange;
+	color: orange;
+	font-size: 20px;
+	margin-left: 200px;
+}
+
+#bio {
+	background-image: url("../images/IMG_51431.jpg");
+	filter: grayscale(60%);
+	background-repeat: no-repeat;
+	background-size: 475px;
+	height: 700px;
+
+}
+
+#biography1 {
+	font-family: 'Wire One', sans-serif;
+	letter-spacing: 30px;
+	color: orange;
+	font-size: 90px;
+
+}
+
+#biography2 {
+	font-weight: bold;
+	transform:scaleY(2);
+	color: orange;
+	font-size: 80px;
+	opacity:;
+	letter-spacing: 50px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#gallery {
+	clear:both;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.objects{
+	width: 175px;
+	height: 440px;
+}
+
+.object{
+	width: 320px;
+	height: 465px;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contactPage {
+	height: 900px;
+}
+
+#title {
+	font-family: 'Wire One', sans-serif;
+	letter-spacing: 30px;
+	font-size: 30px;
+	
+}
+
+#submit {
+	font-family: 'Wire One', sans-serif;
+	background-color: black;
+	border: 2px solid orange;
+	color: lightyellow;
+	font-size: 20px;
+	margin-left: 200px;
+}
+
+#contactSection {
+	
+}
+
+#footer {
+	border-top: 3px solid grey;
+	height: 50px;
+	color: grey;
+	font-family: 'Roboto', sans-serif;
+}
+
