@@ -95,7 +95,7 @@ background-color: rgba(255,165,0, 0.85);
 #welcome {
 	font-family: 'Wire One', sans-serif;
 	letter-spacing: 30px;
-	font-size: 130px;
+	font-size: 12vw;
 	color:#c3a343;
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(transparent, transparent),
@@ -147,9 +147,10 @@ background-color: rgba(255,165,0, 0.85);
 	font-weight: bold;
 	transform:scaleY(2);
 	color: orange;
-	font-size: 6vw;
+	font-size: 4.5vw;
 	letter-spacing: 50px;
 	font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
 }
 
 #gallery {
@@ -321,6 +322,20 @@ background-color: rgba(255,165,0, 0.85);
 
 }
 
+@media only screen and (max-width: 575px){
+ 	.headshot {
+	text-align: center;
+	background: black;
+ 	}
+
+ 	.bottom {
+ 		border: 2px solid white;
+ 	}
+
+ 	#bottom1 {
+ 		background: black;
+ 	}
+}
 
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -339,7 +354,6 @@ background-color: rgba(255,165,0, 0.85);
     .bottom {
     	margin-top: 80px;
     	height: 350px;
-    	border: 0;
     }
 }
 #resumepic{
