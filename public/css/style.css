@@ -121,17 +121,25 @@ background-color: rgba(255,165,0, 0.85);
 }
 
 #bio {
-	background-image: url("../images/Arielle_441_EDIT1_Web.jpg");
+/*	background-image: url("../images/Arielle_441_EDIT1_Web.jpg");*/
 	background-repeat: no-repeat;
 	background-size: 475px;
+	    display: block;
+    margin-left: auto;
+    margin-right: auto
 
+}
+
+#biopic{
+	max-width:100%
 }
 
 #biography1 {
 	font-family: 'Wire One', sans-serif;
 	letter-spacing: 30px;
 	color: orange;
-	font-size: 90px;
+	font-size: 7vw;
+	text-align: center;
 
 }
 
@@ -139,7 +147,7 @@ background-color: rgba(255,165,0, 0.85);
 	font-weight: bold;
 	transform:scaleY(2);
 	color: orange;
-	font-size: 80px;
+	font-size: 6vw;
 	letter-spacing: 50px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -186,6 +194,9 @@ background-color: rgba(255,165,0, 0.85);
 }
 
 #contactSection {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 	
 }
 
@@ -301,13 +312,49 @@ background-color: rgba(255,165,0, 0.85);
 }
 
 /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 767px){
+
+#contactSection {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+}
+
+
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
     }
+
+    #welcome {
+    	font-size: 15vw;
+    	letter-spacing: 20px;
+    }
+
+    #credits {
+    	font-size: 50px;
+    }
+
+    .bottom {
+    	margin-top: 80px;
+    	height: 350px;
+    	border: 0;
+    }
+}
+#resumepic{
+		    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
+
 #resume {
+	background-color: lightgrey;
+	text-align: center;
+}
+
+#resumeinfo {
 	background-color: lightgrey;
 }
 
@@ -452,3 +499,4 @@ img.hover-shadow {
 .flex {
 	display: inline-flex;
 }
+
