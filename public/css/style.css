@@ -1,4 +1,5 @@
 
+
 .main-menu {
 	font-size: 25px;	
 }
@@ -132,7 +133,7 @@ background-color: rgba(255,165,0, 0.85);
 }
 
 #biopic{
-	max-width:100%
+	max-width:100%;
 }
 
 #biography1 {
@@ -345,6 +346,7 @@ background-color: rgba(255,165,0, 0.85);
  	#bottom1 {
  		background: black;
  	}
+/*  .nav li:nth-child(n+3):not(:nth-last-child(-n+1)) {*/
 }
 
 @media only screen and (max-width: 700px){
