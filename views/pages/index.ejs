@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:Roboto|Wire+One|Italianno|300,300i,700|Pinyon+Script" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css" type="text/css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="/js/contact.js"></script>
     <script src="/js/gallery.js"></script>
 </head>
 
 <body>
-    <header style="border-bottom: white solid 2px" id="main-menu">
+    <!-- <header style="border-bottom: white solid 2px" id="main-menu">
         <ul class="nav justify-content-center">
                         <li>
                 <a href="https://www.twitter.com/arielle7simone">
@@ -41,7 +43,44 @@
                 <a class="nav-link " href="/contact">Contact</a>
             </li>
         </ul>
-    </header>
+    </header> -->
+
+    <nav id="main-menu1" class="navbar navbar-expand-sm navbar-dark bg-inverse">
+  <a class="navbar-brand" href="/">  
+    <div class="flex">
+                <a style="padding-top: 5px" href="https://www.twitter.com/arielle7simone">
+                <img src="images/if_twitter_252077.svg" height="25px" width="25px">
+                </a>
+    
+                <a href="https://www.instagram.com/arielle.simonee">
+                <img src="images/if_Instagram_345416.svg" height="40px" width="40px">
+                </a>
+            </a>
+        </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link main-menu" href="/">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link main-menu" href="/biography">Biography</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link main-menu" href="/resume">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link main-menu" href="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link main-menu" href="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     <div class="headshot">
         <div id="main" class="row">
             <div class="col-sm-1">
