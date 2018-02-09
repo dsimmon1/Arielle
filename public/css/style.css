@@ -1,7 +1,6 @@
 
-
 .main-menu {
-	font-size: 25px;	
+  font-size: 25px;  
 }
 
 #main-menu1{
@@ -9,13 +8,13 @@
 }
 
 a {
-	color: rgb(242, 242, 217);
-	font-family: 'Wire One', sans-serif;
+  color: rgb(242, 242, 217);
+  font-family: 'Wire One', sans-serif;
 }
 
 a:hover {
-	color:rgba(153, 0, 0, 0.85);
-	border-bottom: solid 2px;
+  color:rgba(153, 0, 0, 0.85);
+  border-bottom: solid 2px;
 }
 
 .navbar-brand:hover{
@@ -23,10 +22,10 @@ a:hover {
 }
 
 .headshot {
-/*	background-image: url("../images/Arielle_210_EDIT_Web.jpg");*/
-/*	background-image: url("https://www.reservoirchurch.org/wp-content/uploads/2017/11/spotlight.png")*/
-	background-repeat: no-repeat;
-	height: 670px;
+/*  background-image: url("../images/Arielle_210_EDIT_Web.jpg");*/
+/*  background-image: url("https://www.reservoirchurch.org/wp-content/uploads/2017/11/spotlight.png")*/
+  background-repeat: no-repeat;
+  height: 670px;
 /*background-color: rgb(173,68,109);*/
 /*background-color: rgb(176,67,107);*/
 background: black;
@@ -35,70 +34,70 @@ background: black;
 }
 
 #main {
-	clear: both;
-/*  	height: 1200px;*/
-  	color: black;
-  	vertical-align: text-bottom;
+  clear: both;
+/*    height: 1200px;*/
+    color: black;
+    vertical-align: text-bottom;
 
 
 }
 
 #ari {
-	float: left;
-	color: rgb(242, 242, 217);
-	font-family: 'Wire One', sans-serif;
-	font-size: 35px;
-	padding: 5px;
+  float: left;
+  color: rgb(242, 242, 217);
+  font-family: 'Wire One', sans-serif;
+  font-size: 35px;
+  padding: 5px;
 }
 
 #name {
-	display: flex;
-	flex-direction: column;
-	line-height: 250%;
-	text-align: center;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  line-height: 250%;
+  text-align: center;
+  justify-content: center;
 }
 
 #credits {
-	list-style-type: none;
-  	line-height: 90%;
-  	letter-spacing: 10px;
-  	font-family: 'Wire One', sans-serif;
-  	font-size: 50px;
-  	transform:scaleY(1.25);
-  	color: white;
-  	display: inline;
+  list-style-type: none;
+    line-height: 90%;
+    letter-spacing: 10px;
+    font-family: 'Wire One', sans-serif;
+    font-size: 50px;
+    transform:scaleY(1.25);
+    color: white;
+    display: inline;
 }
 
 #e {
-/*	background-color: rgba(153, 0, 0, 0.85);*/
+/*  background-color: rgba(153, 0, 0, 0.85);*/
 background-color: rgba(255,165,0, 0.85);
-	height: 330px;
-	border-top: 2px solid orange;
+  height: 330px;
+  border-top: 2px solid orange;
 }
 
 #first {
-	font-size: 100px;
-	color: white;
-	font-family: 'Pinyon Script', cursive;
+  font-size: 100px;
+  color: white;
+  font-family: 'Pinyon Script', cursive;
 }
 
 
 #last {
-	font-weight: bold;
-	transform:scaleY(2);
-	color: grey;
-	font-size: 70px;
-	opacity: .8;
-/*	letter-spacing: 30px;*/
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  transform:scaleY(2);
+  color: grey;
+  font-size: 70px;
+  opacity: .8;
+/*  letter-spacing: 30px;*/
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #welcome {
-	font-family: 'Wire One', sans-serif;
-	letter-spacing: 30px;
-	font-size: 12vw;
-	color:#c3a343;
+  font-family: 'Wire One', sans-serif;
+  letter-spacing: 30px;
+  font-size: 12vw;
+  color:#c3a343;
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(transparent, transparent),
     url(../images/gold.jpg) repeat;
@@ -108,106 +107,106 @@ background-color: rgba(255,165,0, 0.85);
 }
 
 #about {
-	font-size: 15px;
-	color: white;
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #more {
-	font-family: 'Wire One', sans-serif;
-	background-color: grey;
-	border-color: orange;
-	color: orange;
-	font-size: 20px;
-	margin-left: 200px;
+  font-family: 'Wire One', sans-serif;
+  background-color: grey;
+  border-color: orange;
+  color: orange;
+  font-size: 20px;
+  margin-left: 200px;
 }
 
 #bio {
-/*	background-image: url("../images/Arielle_441_EDIT1_Web.jpg");*/
-	background-repeat: no-repeat;
-	background-size: 475px;
-	    display: block;
+/*  background-image: url("../images/Arielle_441_EDIT1_Web.jpg");*/
+  background-repeat: no-repeat;
+  background-size: 475px;
+      display: block;
     margin-left: auto;
     margin-right: auto
 
 }
 
 #biopic{
-	max-width:100%;
+  max-width:100%
 }
 
 #biography1 {
-	font-family: 'Wire One', sans-serif;
-	letter-spacing: 30px;
-	color: orange;
-	font-size: 7vw;
-	text-align: center;
+  font-family: 'Wire One', sans-serif;
+  letter-spacing: 30px;
+  color: orange;
+  font-size: 7vw;
+  text-align: center;
 
 }
 
 #biography2 {
-	font-weight: bold;
-	transform:scaleY(2);
-	color: orange;
-	font-size: 3vw;
-	letter-spacing: 33px;
-	font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  transform:scaleY(2);
+  color: orange;
+  font-size: 3vw;
+  letter-spacing: 33px;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
 
 #gallery {
-	clear:both;
-	display: flex;
-	justify-content: space-around;
+  clear:both;
+  display: flex;
+  justify-content: space-around;
 
 }
 
 .objects{
-	width: 175px;
-	height: 440px;
+  width: 175px;
+  height: 440px;
 }
 
 .object{
-	width: 320px;
-	height: 465px;
+  width: 320px;
+  height: 465px;
 }
 
 #contact {
-	text-align: center;
+  text-align: center;
 }
 
 #contactPage {
-	height: 900px;
+  height: 900px;
 }
 
 #title {
-	font-family: 'Wire One', sans-serif;
-	letter-spacing: 30px;
-	font-size: 30px;
-	
+  font-family: 'Wire One', sans-serif;
+  letter-spacing: 30px;
+  font-size: 30px;
+  
 }
 
 #submit {
-	font-family: 'Wire One', sans-serif;
-	background-color: black;
-	border: 2px solid orange;
-	color: lightyellow;
-	font-size: 20px;
-	margin-left: 200px;
+  font-family: 'Wire One', sans-serif;
+  background-color: black;
+  border: 2px solid orange;
+  color: lightyellow;
+  font-size: 20px;
+  margin-left: 200px;
 }
 
 #contactSection {
-	display: block;
+  display: block;
     margin-left: auto;
     margin-right: auto
-	
+  
 }
 
 #footer {
-	border-top: 2px solid orange;
-	height: 50px;
+  border-top: 2px solid orange;
+  height: 50px;
   font-size: 20px;
-	font-family: 'Wire One', sans-serif;
+  font-family: 'Wire One', sans-serif;
 }
 
 #copy {
@@ -291,7 +290,7 @@ background-color: rgba(255,165,0, 0.85);
 /* The Close Button */
 
 .exit {
-	 position: absolute;
+   position: absolute;
     top: 15px;
     right: 35px;
     color: #f1f1f1;
@@ -301,7 +300,7 @@ background-color: rgba(255,165,0, 0.85);
 }
 .exit:hover,
 .exit:focus{
-	color: #bbb;
+  color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
@@ -327,26 +326,25 @@ background-color: rgba(255,165,0, 0.85);
 @media only screen and (max-width: 767px){
 
 #contactSection {
-	text-align: center;
-	margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 }
 
 @media only screen and (max-width: 575px){
- 	.headshot {
-	text-align: center;
-	background: black;
- 	}
+  .headshot {
+  text-align: center;
+  background: black;
+  }
 
- 	.bottom {
- 		border: 2px solid white;
- 	}
+  .bottom {
+    border: 2px solid white;
+  }
 
- 	#bottom1 {
- 		background: black;
- 	}
-/*  .nav li:nth-child(n+3):not(:nth-last-child(-n+1)) {*/
+  #bottom1 {
+    background: black;
+  }
 }
 
 @media only screen and (max-width: 700px){
@@ -355,17 +353,17 @@ background-color: rgba(255,165,0, 0.85);
     }
 
     #welcome {
-    	font-size: 15vw;
-    	letter-spacing: 20px;
+      font-size: 15vw;
+      letter-spacing: 20px;
     }
 
     #credits {
-    	font-size: 50px;
+      font-size: 50px;
     }
 
     .bottom {
-    	margin-top: 80px;
-    	height: 350px;
+      margin-top: 80px;
+      height: 350px;
     }
 }
 #resumepic{
@@ -374,16 +372,16 @@ background-color: rgba(255,165,0, 0.85);
 
 
 #resume {
-	background-color: lightgrey;
-	text-align: center;
+  background-color: lightgrey;
+  text-align: center;
 }
 
 #resumeinfo {
-	background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 #resumes {
-	text-align: center;
+  text-align: center;
 }
 
 /*start of gallery css*/
@@ -521,9 +519,15 @@ img.hover-shadow {
 }
 
 .flex {
-	display: inline-flex;
+  display: inline-flex;
+}
+
+.flex2{
+  display: inline-flex;
+  padding-right: 50px;
 }
 
 #title {
   text-align: center;
 }
+
